@@ -32,11 +32,7 @@ class App extends Component<AppProps, AppState> {
           OUTPUT: <br />
         </pre>
         {
-            let redCar = new Car("red");
-            let blueCar = new Car("blue");
-            redCar.drive(4);
-            blueCar.drive(10);
-        }        
+        }
       </div>
     );
   }
@@ -48,3 +44,8 @@ render(<App />, document.getElementById('root'));
 display("Let's get started with React TypeScript!");
 
 
+let redCar = new Car("red");
+let blueCar = new Car("blue");
+redCar.drive(4);
+blueCar.drive(10);
+      
