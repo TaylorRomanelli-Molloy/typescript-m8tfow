@@ -32,7 +32,10 @@ class App extends Component<AppProps, AppState> {
           OUTPUT: <br />
         </pre>
         {
-           // <SnakeTests />
+            let redCar = new Car("red");
+            let blueCar = new Car("blue");
+            redCar.drive(4);
+            blueCar.drive(10);
         }        
       </div>
     );
